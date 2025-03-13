@@ -26,8 +26,6 @@ This repository documents the step-by-step process of migrating an on-prem SQL S
 ### Step 2: Download **Data Migration Assistant (DMA)**  
 - If **DMA** is not installed, download and install it from [Microsoft's official page](https://www.microsoft.com/en-us/download/details.aspx?id=53595).  
 
-![Step 2](images/step2.png)  
-
 ---
 
 ### Step 3: Perform Compatibility Assessment Using DMA  
@@ -35,7 +33,7 @@ This repository documents the step-by-step process of migrating an on-prem SQL S
 2. Set **Source type** as `SQL Server` and **Target type** as `Azure SQL Database`.  
 3. Choose your **on-prem database** (e.g., `AdventureWorks2017`).  
 
-![Step 3](images/step3.png)  
+![image](https://github.com/user-attachments/assets/e35e4a70-7677-4757-9f08-83b72a3f6b76)
 
 ---
 
@@ -45,7 +43,8 @@ This repository documents the step-by-step process of migrating an on-prem SQL S
   ✅ **Check feature parity**  
 - This will identify unsupported SQL Server features in **Azure SQL Database**.  
 
-![Step 4](images/step4.png)  
+![image](https://github.com/user-attachments/assets/a03c0776-01e4-4ade-b553-67b49b4ea89e)
+
 
 ---
 
