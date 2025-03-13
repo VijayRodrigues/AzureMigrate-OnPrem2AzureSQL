@@ -18,7 +18,8 @@ This repository documents the step-by-step process of migrating an on-prem SQL S
 2. Select **Databases (only)** as the migration scope.  
 3. Create a new **Azure Migrate project** and give it a meaningful name for future reference.  
 
-![Step 1](images/step1.png)  
+![image](https://github.com/user-attachments/assets/90a9183a-2277-40a3-bc6a-3c678ee42d03)
+
 
 ---
 
