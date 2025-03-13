@@ -170,6 +170,20 @@ Click **Next** to continue.
 
 ---
 
+
+### **Step 14: Verify Data Consistency in Azure SQL**
+After the migration is complete, verify that all data has been successfully transferred.  
+
+- **Verify Data in Azure SQL Database (Azure Portal)**  
+  - Open **Azure Portal** and navigate to your **Azure SQL Database**.  
+  - Open **Query Editor**, sign in with your credentials, and run a query to count the number of records in key tables.  
+
+![image](https://github.com/user-attachments/assets/79b81c4a-faca-4ff0-9788-14d1894e5734)
+
+
+
+
+
 ## 🎯 **Post-Migration Steps**  
 ✅ **Validate Data Consistency** – Run SQL queries to compare row counts and key values between **On-Prem SQL Server** and **Azure SQL Database**.  
 ✅ **Check for Errors & Logs** – Look for any migration failures and review error logs if needed.  
